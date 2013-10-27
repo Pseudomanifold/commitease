@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# commitease.py --- Grading the readability of git commmits
+# commitease.py --- Grading the readability of git commits
 #
 # Author:  Bastian Rieck <bastian@rieck.ru>
 # Licence: BSD 
@@ -160,7 +160,7 @@ def main():
   #
 
   for author in sorted(scores):
-    print( "Mean readibility value for " + author + ":",
+    print( "Mean readability value for " + author + ":",
            sum( scores[author] ) / len( scores[author] ) )
 
 if __name__ == "__main__":
